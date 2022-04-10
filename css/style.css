@@ -6,4 +6,25 @@ header{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #ccc;
+}
+.header{
+    height: 50px;
+    background-color: red;
+}
+.slider{
+   flex: 1;
+   overflow: hidden;
+}
+.slider--width{
+    height: 100%;
+    display: flex;
+    transition: all ease 0.3s;
+}
+
+.imagem--item{
+    width: 100vh;
+    height: inherit;
+    background-position: center;
+    background-size: cover;
 }
